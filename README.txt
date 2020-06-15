@@ -1,6 +1,9 @@
 #FINAL PROJECT CS 81
 ## Puzzle Game
 ![homePage]("https://github.com/NRostova/puzzle/blob/master/homePage.png")
+<img src="homePage.png"
+     alt="home page"
+     style="float: left; margin-right: 10px;" />
 
 For my final project I wanted to explore how to work with Canvas from chapter 16 
 of the text book.
