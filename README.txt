@@ -2,6 +2,8 @@
 ## Puzzle Game
 ![homePage](homePage.png)
 
+
+<img src="homePage.png" width="350">
 For my final project I wanted to explore how to work with Canvas from chapter 16 
 of the text book.
 While studying how to do it, I practiced using project oriented programming 
