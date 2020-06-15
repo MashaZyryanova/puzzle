@@ -1,6 +1,6 @@
 #FINAL PROJECT CS 81
 ## Puzzle Game
-![homePage](homePage.png)
+![homePage]("https://github.com/NRostova/puzzle/blob/master/homePage.png")
 
 For my final project I wanted to explore how to work with Canvas from chapter 16 
 of the text book.
