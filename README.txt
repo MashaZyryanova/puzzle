@@ -1,5 +1,7 @@
 #FINAL PROJECT CS 81
 ## Puzzle Game
+![homePage](homePage.png)
+
 For my final project I wanted to explore how to work with Canvas from chapter 16 
 of the text book.
 While studying how to do it, I practiced using project oriented programming 
