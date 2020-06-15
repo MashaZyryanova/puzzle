@@ -1,12 +1,21 @@
 #FINAL PROJECT CS 81
 ## Puzzle Game
-![homePage]("https://github.com/NRostova/puzzle/blob/master/homePage.png")
+
 <img src="homePage.png"
+     alt="home page"
+     style="float: left; margin-right: 10px;" />
+<img src="puzzle1.png"
+     alt="home page"
+     style="float: left; margin-right: 10px;" />
+<img src="puzzle2.png"
+     alt="home page"
+     style="float: left; margin-right: 10px;" />
+<img src="puzzle3.png"
      alt="home page"
      style="float: left; margin-right: 10px;" />
 
 
-<img src="homePage.png" width="350">
+
 For my final project I wanted to explore how to work with Canvas from chapter 16 
 of the text book.
 While studying how to do it, I practiced using project oriented programming 
