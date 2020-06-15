@@ -1,6 +1,9 @@
 #FINAL PROJECT CS 81
 ## Puzzle Game
-![homePage](homePage.png)
+![homePage]("https://github.com/NRostova/puzzle/blob/master/homePage.png")
+<img src="homePage.png"
+     alt="home page"
+     style="float: left; margin-right: 10px;" />
 
 
 <img src="homePage.png" width="350">
