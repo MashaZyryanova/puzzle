@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="style1.css">  
+</head>
+<body onload="Start();">
+    <div class="container-fluid">
+        <div class="ml-5 text-left" id="win"></div>
+        <div class="row Main">
+            
+            <div class="col-1 pb-2"></div>
+            <div class="col-12 col-sm-9">
+                <canvas id="canvas">
+                
+                </canvas>
+            </div>
+            <div class="controls col-12 col-sm-2">
+                <form onsubmit="return false" action="#" method="GET" >
+                    <p class="mb-5 pb-5">
+                        <!-- Choose difficulty level
+                        <input type="text" id="level" name="level" value=""> -->
+
+                        <label class="pr-3" for="levels">Choose difficulty:</label>
+
+                        <select name="levels" id="levels">
+                            <option value="2">Easy</option>
+                            <option value="3">Medium</option>
+                            <option value="4">Hard</option>
+                            <option value="5">Challenge</option>
+                        </select>
+                    </p>
+                    <button  id="puzzle">Click to start puzzle</button>
+                </form>
+            </div>
+        </div>
+    </div> 
+
+    <script src="ind.js"></script>
+</body>
+</html>

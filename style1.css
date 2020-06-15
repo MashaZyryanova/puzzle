@@ -1,0 +1,165 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+/*********************************************************
+Styles for puzzle page
+********************************************************* */
+#canvas{
+   width: 1200px;
+   height: auto;
+}
+/* Button to start puzzle */
+#puzzle {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background:none;
+    color: #05386B;
+    border: 1px solid #05386B;
+    text-transform: uppercase; 
+    transition:all 0.3s; 
+    overflow: hidden;
+    outline: none;
+}
+
+#puzzle:after {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    opacity:0;
+    background-color: #05386B;
+    transform-origin: center;
+    transition:all 0.3s;
+    z-index:-1;
+}
+#puzzle:hover,
+#puzzle:focus {
+    color: white!important;
+}
+#puzzle:hover:after{
+    opacity:1;
+    width: 100%;
+    color: white;
+}
+/* button to select level difficulties */
+#levels {
+    color: #05386B;
+    border: 1px solid #05386B;
+    font-weight: bold;
+    padding: 5px 7px;  
+}
+.controls {
+    margin-left: -50px;
+}
+
+.Main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+  }
+.purple {
+    color: #05386B;
+}
+.bgPurple {
+    background-color: #05386B;
+}
+.accent-green {
+    color:#379683;
+}
+.light-green {
+    color:#8EE4AF;
+}
+.text {
+    color:#EDF5E1;
+}
+.heading {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.Link:hover {
+    text-decoration: none;
+    text-shadow: 0.5px 0 0;
+    color:#EDF5E1; 
+}
+
+.Link{
+    text-decoration: none;
+}
+.Button {
+    width: 300px;
+    min-height: 50px;
+    background-color: transparent;
+    /* border: 1px solid blue; */
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    outline-color: white;
+    background-image: linear-gradient(to top, blue 0%, white 10%);
+}
+.Button:focus{
+    outline-color: white;
+}
+.Button:hover {
+    background-image: linear-gradient(to top, blue 0%, white 14%);
+}
+
+.img__wrapper{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accent-green {
+    color:#379683;
+}
+.light-green {
+    color:#8EE4AF;
+}
+.text {
+    color:#EDF5E1;
+}
+.heading {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.HomeHero__animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    overflow: hidden;
+}
+#callAction {
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #05386B;
+   text-align:center;
+   text-transform: uppercase;
+   font-size:70px;
+   letter-spacing: 2px;
+   font-weight: bold;
+   font-family: 'Crafty Girls', cursive;
+  }
+  #win {
+    font-size: 50px;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    
+    color: #05386B;
+    text-align:center;
+    letter-spacing: 2px;
+    font-family: 'Crafty Girls', cursive;
+}
